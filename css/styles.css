@@ -1,0 +1,247 @@
+:root {
+  --red: #ba181b;
+  --black: #0A0908;
+  --gray:#6665DD;
+  --blue: #29339B;
+  --white: #F9F9F9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cmn-sec {
+  /* margin: 0; */
+  /* margin-bottom: 7%; */
+  text-align: center;
+}
+
+.cmn-h {
+  font-size: 3rem;
+  margin-bottom: 3%;
+  line-height: 1.3;
+}
+
+.cmn-sh {
+  font-size: 1.5rem;
+  margin-bottom: 10%;
+}
+
+.cmn-area {
+  /* margin: 30px auto; */
+  padding: 7% 5% 7%;
+}
+
+.hero-header {
+  font-size: 7rem;
+  color: var(--red);
+  margin-bottom: 7%;
+  line-height: 1.3;
+  letter-spacing: .2rem;
+}
+
+.hero-sub-header {
+  color: var(--white);
+  font-size: 2rem;
+  margin-bottom: 10%;
+  line-height: 1.3;
+  letter-spacing: .2rem;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 5rem;
+  }
+
+  #hero h2 {
+    font-size: 1.7rem;
+  }
+}
+
+.hero-container {
+  /* padding: 0; */
+  width: 100%;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url("../images/hero-dunk-1.jpg"); */
+  background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)), url("../images/hero-dunk-1.jpg");
+  /* rl(https://media.hero-magazine.com/wp-content/uploads/2021/08/24140454/MICHAEL-JORDAN-BILL-SMITH-e1630319726912.jpg) */
+  background-repeat: no-repeat;
+  background-position: center 54px;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  position: relative;
+  text-align: center;
+}
+
+.hero-text {
+  /* align-content: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-custom {
+  z-index: 1;
+  /* font-size: 1.3rem;
+  line-height: 1.2; */
+  background-color: var(--blue);
+}
+
+.btn-contact-us {
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid var(--white);
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.btn-contact-us:hover {
+  background: var(--gray);
+  border: 2px solid var(--blue);
+  color:  var(--white);
+}
+
+/* Pricing Section
+modified https://startbootstrap.com/snippets/pricing-table */
+#pricing {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.pricing-header {
+  color: var(--red);
+  /* font-size: 3rem;
+  margin-bottom: 3%;
+  line-height: 1.3; */
+}
+
+.card-img {
+  width: 60px;
+  align-self: center;
+  margin-top: 5%;
+}
+
+.card {
+  border-color:  var(--red);
+  padding: 10px;
+}
+
+/* Testimonial Section */
+#testimonial {
+  padding-bottom: 4%;
+  /* margin: 0;
+  margin-bottom: 7%;
+  text-align: center; */
+  background-color:  var(--blue);
+  color: var(--white);
+
+}
+
+.testimonial-image {
+  width: 60px;
+  border-radius: 100%;
+  margin: 20px 0;
+}
+
+.carousel-item {
+  background-color: var(--gray);
+  height: 400px;
+  padding: 7% 10%;
+}
+
+.carousel-caption{
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%;
+}
+
+/* About US Section */
+
+#about-us {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.about-image {
+  /* padding: 5%; */
+  width: 75%;
+  border-width: 1px;
+  border-color: var(--white);
+  border-style: solid;
+}
+
+.about-text {
+  padding: 5%;
+}
+
+  /* Contact Section */
+#contact {
+  background-color: var(--white);
+}
+
+.contact-panel-image {
+  filter: brightness(30%);
+  /* position: relative; */
+
+  /* opacity: 0.5; */
+}
+
+.contact-panel-area {
+  position: relative;
+}
+
+.contact-panel-text {
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  /* background-color: var(--red); */
+  /* border-width: thick;
+  border-style: solid;
+  border-color: var(--white); */
+  z-index: 10;
+}
+
+.col1-table {
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+.contact-methods {
+  font-size: 1.3rem;
+}
+
+.instagram-logo {
+    width: 40px;
+    height: auto;
+  }
+
+.contact-text {
+  padding: 20px 50px;
+  text-align: left;
+}
+
+  /* Footer Section */
+#footer {
+  background-color: var(--black);
+  color: var(--white);
+  min-height: 150px;
+}
